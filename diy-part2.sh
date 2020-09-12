@@ -8,9 +8,9 @@
 # Blog: https://p3terx.com
 #============================================================
 
-device_name='HC5962'
-wifi_name='HiWiFi'
-lan_ip='192.168.199.1'        # Lan Ip地址
+device_name='E8820S'
+wifi_name='wifi'
+lan_ip='192.168.8.1'        # Lan Ip地址
 utc_name='Asia\/Shanghai'   # 时区
 #openClash_url='https://github.com/vernesong/OpenClash.git'       # OpenClash包地址 
 
@@ -34,6 +34,11 @@ sed -i "s/'UTC'/'CST-8'\n   set system.@system[-1].zonename='$utc_name'/g" packa
 echo "修改wifi名称"
 
 sed -i "s/OpenWrt/$wifi_name/g" package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
+
+echo "替换文件"
+rm -rf ./target/linux/ramips/dts/HC5962.dts && cd .. && cp -f ./HC5962.dts openwrt/target/linux/ramips/dts/ && cd openwrt
+rm -rf ./target/linux/ramips/base-files/etc/board.d/02_network && cd .. && cp -f ./02_network openwrt/target/linux/ramips/base-files/etc/board.d/ && cd openwrt
 
 #echo '添加OpenClash'
 #git clone -master $openClash_url package/lean/luci-app-openclash 
