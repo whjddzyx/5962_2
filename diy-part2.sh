@@ -36,9 +36,9 @@ echo "修改wifi名称"
 sed -i "s/OpenWrt/$wifi_name/g" package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 
-echo "替换文件"
-rm -rf ./target/linux/ramips/dts/HC5962.dts && cd .. && cp -f ./HC5962.dts openwrt/target/linux/ramips/dts/ && cd openwrt
-rm -rf ./target/linux/ramips/base-files/etc/board.d/02_network && cd .. && cp -f ./02_network openwrt/target/linux/ramips/base-files/etc/board.d/ && cd openwrt
+#echo "替换文件"
+#rm -rf ./target/linux/ramips/dts/HC5962.dts && cd .. && cp -f ./HC5962.dts openwrt/target/linux/ramips/dts/ && cd openwrt
+#rm -rf ./target/linux/ramips/base-files/etc/board.d/02_network && cd .. && cp -f ./02_network openwrt/target/linux/ramips/base-files/etc/board.d/ && cd openwrt
 
 #echo '添加OpenClash'
 #git clone -master $openClash_url package/lean/luci-app-openclash 
