@@ -23,7 +23,7 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # Define My Package
 
 #添加应用过滤
-git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
+#git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
 
 #git clone https://github.com/fw876/helloworld.git                                   package/molun/luci-app-ssr-plus
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome.git                 package/molun/luci-app-adguardhome
