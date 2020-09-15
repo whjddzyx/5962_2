@@ -16,8 +16,8 @@ on:
   push:
     branches:
       - master
-    paths:
-      - 'Lean_LEDE_B70.config'
+    #paths:
+     # - 'Lean_LEDE_B70.config'
   #schedule:
    # - cron: 0 19 * * *
   #watch:
