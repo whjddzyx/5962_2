@@ -13,9 +13,9 @@ on:
   repository_dispatch:
   release:
     types: published
-  push:
-    branches:
-      - master
+  #push:
+    #branches:
+      #- master
     #paths:
      # - 'Lean_LEDE_B70.config'
   #schedule:
