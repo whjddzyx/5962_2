@@ -17,7 +17,7 @@ on:
     branches:
       - master
     paths:
-      - 'Lean_LEDE_B70.config'
+      - 'Lean_LEDE_B70_1.config'
   #schedule:
    # - cron: 0 19 * * *
   #watch:
