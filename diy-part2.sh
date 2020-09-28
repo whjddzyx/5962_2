@@ -10,7 +10,7 @@
 
 device_name='E8820S'
 wifi_name='wifi'
-lan_ip='192.168.8.1'        # Lan Ip地址
+lan_ip='10.0.11.254'        # Lan Ip地址
 utc_name='Asia\/Shanghai'   # 时区
 #openClash_url='https://github.com/vernesong/OpenClash.git'       # OpenClash包地址 
 
