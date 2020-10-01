@@ -9,7 +9,7 @@
 #============================================================
 
 device_name='K1'
-wifi_name='wifi'
+wifi_name='k1_wifi'
 lan_ip='192.168.2.1'        # Lan Ip地址
 utc_name='Asia\/Shanghai'   # 时区
 
