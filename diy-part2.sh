@@ -47,6 +47,10 @@ sed -i "s/OpenWrt/$wifi_name/g" package/kernel/mac80211/files/lib/wifi/mac80211.
 
 #echo '添加Passwall'
 
+echo 'CONFIG_PACKAGE_luci-app-wol=n' >> .config
+echo 'CONFIG_PACKAGE_luci-app-unblockmusic=n' >> .config
+echo 'CONFIG_PACKAGE_luci-app-ssr-plus=n' >> .config
+
 #echo 'CONFIG_PACKAGE_luci-app-passwall=y' >> .config
 
 #echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks=y' >> .config
