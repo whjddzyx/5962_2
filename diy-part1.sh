@@ -20,12 +20,12 @@
 #sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
-sed -i '$a src-git mypackages https://github.com/siropboy/mypackages' feeds.conf.default
-sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
+#sed -i '$a src-git mypackages https://github.com/siropboy/mypackages' feeds.conf.default
+#sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
 
 # Define My Package
 
-git clone https://github.com/whjddzyx/luci-app-omcproxy.git package/whj/luci-app-omcproxy
+#git clone https://github.com/whjddzyx/luci-app-omcproxy.git package/whj/luci-app-omcproxy
 
 
 #添加应用过滤
