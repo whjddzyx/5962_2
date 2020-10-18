@@ -36,3 +36,5 @@ echo 'CONFIG_PACKAGE_luci-app-vsftpd=n' >> .config
 echo 'CONFIG_PACKAGE_luci-app-vlmcsd=n' >> .config
 echo 'CONFIG_PACKAGE_luci-app-wol=n' >> .config
 echo 'CONFIG_PACKAGE_luci-app-unblockmusic=n' >> .config
+echo 'CONFIG_PACKAGE_luci-app-ssr-plus=n' >> .config
+echo 'CONFIG_PACKAGE_CONFIG_PACKAGE_samba=n' >> .config
