@@ -26,6 +26,7 @@
 # Define My Package
 
 #git clone https://github.com/whjddzyx/luci-app-omcproxy.git package/whj/luci-app-omcproxy
+git clone --depth 1 --branch master --single-branch https://github.com/muink/luci-app-change-mac.git package/luci-app-change-mac
 
 
 #添加应用过滤
