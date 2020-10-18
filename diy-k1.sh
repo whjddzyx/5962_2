@@ -30,7 +30,7 @@ echo "修改wifi名称"
 
 sed -i "s/OpenWrt/$wifi_name/g" package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
-git clone --depth 1 --branch master --single-branch https://github.com/muink/luci-app-change-mac.git package/luci-app-change-mac
+git clone https://github.com/muink/luci-app-change-mac.git package/luci-app-change-mac
 
 echo 'CONFIG_PACKAGE_luci-app-vsftpd=n' >> .config
 echo 'CONFIG_PACKAGE_luci-app-vlmcsd=n' >> .config
