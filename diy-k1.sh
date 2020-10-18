@@ -8,8 +8,8 @@
 # Blog: https://p3terx.com
 #============================================================
 
-device_name='K1'
-wifi_name='k1_wifi'
+device_name='K2'
+wifi_name='k2_wifi'
 lan_ip='192.168.2.1'        # Lan Ip地址
 utc_name='Asia\/Shanghai'   # 时区
 
@@ -30,7 +30,7 @@ echo "修改wifi名称"
 
 sed -i "s/OpenWrt/$wifi_name/g" package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
-git clone https://github.com/whjddzyx/luci-app-change-mac.git package/whj/luci-app-change-mac
+#git clone https://github.com/whjddzyx/luci-app-change-mac.git package/whj/luci-app-change-mac
 
 echo 'CONFIG_PACKAGE_luci-app-vsftpd=n' >> .config
 echo 'CONFIG_PACKAGE_luci-app-vlmcsd=n' >> .config
