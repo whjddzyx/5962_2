@@ -17,7 +17,7 @@ on:
     branches:
       - master
     paths:
-      - 'k1.config'
+      - '841-v8.config'
   #schedule:
    # - cron: 0 19 * * *
   #watch:
@@ -27,9 +27,9 @@ env:
   REPO_URL: https://github.com/whjddzyx/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: k1.config
+  CONFIG_FILE: 841-v8.config
   DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: diy-k1.sh
+  DIY_P2_SH: diy-841-v8.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
