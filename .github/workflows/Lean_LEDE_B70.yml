@@ -24,7 +24,7 @@ on:
    # types: started
 
 env:
-  REPO_URL: https://github.com/whjddzyx/lede
+  REPO_URL: https://github.com/whjddzyx/lleedd
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: Lean_LEDE_B70_3.config
